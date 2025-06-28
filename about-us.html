@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="psicología, comunidad, ciencia abierta, salud mental, divulgación científica, red social, profesionales, estudiantes, pensamiento crítico" />
+    <meta name="description" content="PsychoShare es una comunidad de divulgación científica en psicología. Conectamos a profesionales, estudiantes y personas interesadas en compartir conocimiento riguroso, accesible y libre."><title>Acerca de - PsychoShare</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/base/_global.css">
+    <link rel="stylesheet" href="css/layout/_grid.css">
+    <link rel="stylesheet" href="css/layout/_header.css">
+    <link rel="stylesheet" href="css/layout/_navigation.css">
+    <link rel="stylesheet" href="css/components/_search-bar.css">
+    <link rel="stylesheet" href="css/components/_button.css">
+    <link rel="stylesheet" href="css/components/_logo-section.css">
+    <link rel="stylesheet" href="css/pages/_about-us.css">
+    <link rel="stylesheet" href="css/layout/_footer.css">
+    
+    <script src="https://kit.fontawesome.com/636f762910.js" crossorigin="anonymous"></script>
+    <script src="js/menu.js" defer></script>
+</head>
+
+<body class="app-layout">
+    <header class="logo-header" aria-label="Encabezado">
+        <img src="assets/logo/logopsynet_300x300.webp" alt="logo de PsychoShare">
+        <h1>PsychoShare</h1>
+    </header>
+
+    <section aria-label="Buscador y acceso directo al perfil" class="search-bar">
+    
+        <form action="search" method="get" class="search-form">
+            <input type="search" name="q" placeholder="¿Qué deseas buscar?" class="search-input">
+            <button type="submit" class="search-button" aria-label="Buscar">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    
+        <span class="action-buttons">
+            <a href="./wall.html" class="action-button" aria-label="Inicio">
+                <i class="fas fa-house"></i>
+            </a>
+            <a href="./profile.html" class="action-button" aria-label="Perfil">
+                <img src="assets/imgwebp/flavia.webp" alt="Foto de contacto" class="contact-photo">
+            </a>
+            <button class="menu-toggle action-button" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>       
+        </span>
+    </section>
+
+    <nav class="menu-nav" aria-label="Menú principal de navegación">
+        <ul>
+        <li><a href="./wall.html" class="nav-link"><i class="fas fa-house"></i> Inicio</a></li>
+        <li><a href="./profile.html" class="nav-link"><i class="fas fa-circle-user"></i> Perfil</a></li>
+        <li><a href="./contacts.html" class="nav-link"><i class="fas fa-address-book"></i> Mis contactos</a></li>
+        <li><a href="./about-us.html" class="nav-link"><i class="fas fa-info-circle"></i> Acerca de...</a></li>
+        <li><a href="./logout-modal.html"class="nav-link"><i class="fas fa-right-from-bracket"></i> Cerrar sesión</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="about-us-container">
+            <section class="logo-section">
+                <img src="assets/logo/logo-black_300x300.webp" alt="Logo de PsychoShare" class="logo-avatar" />
+                <h2 class="logo-subtitle">Psicología abierta: Explora, comparte, impulsa y transforma.</h2>
+            </section>
+            
+            <article class="about-us-text">
+                <h2>¿Quiénes somos?</h2>
+                <p>
+                   Somos una comunidad de divulgación científica en psicología. Conectamos a profesionales,
+                   estudiantes y curiosos para compartir conocimiento riguroso, accesible y libre.
+                   ¡Acercamos la psicología basada en evidencia a todos!
+                </p>
+             </article>
+             
+             <article class="about-us-text">
+                <h2>¿Por qué lo hacemos?</h2>
+                <p>
+                   En un mundo saturado de desinformación, creemos que el conocimiento científico debe ser abierto,
+                   compartido y discutido por todos. Buscamos combatir mitos, promover el pensamiento crítico
+                   y crear comunidad alrededor del conocimiento psicológico riguroso.
+                </p>
+             </article>
+     
+             <address class="contact-us">
+                <h2>¡Contactanos!</h2>
+                <p>
+                   Si tenés sugerencias o consultas escribinos a
+                   <a href="mailto:dsoftware2023@gmail.com">dsoftware2023@gmail.com</a>
+                </p>
+             </address>
+         </section>
+     </main>
+     
+     <footer aria-label="Pie de página del sitio">
+         <p>2025 PsychoShare - Hecho por PsyNet - Licencia MIT</p>
+     </footer>
+</body>
+</html>
